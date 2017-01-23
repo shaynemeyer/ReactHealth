@@ -1,0 +1,79 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ReactHealth",
+		"_postman_id": "59480be2-587c-8821-97ef-357ce802bb7c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Default request - not authorized",
+			"request": {
+				"url": "http://localhost:3030",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Signup",
+			"request": {
+				"url": "http://localhost:3030/signup",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"test@example.com\",\n\t\"password\": \"12345\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Signin",
+			"request": {
+				"url": "http://localhost:3030/signin",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"test@example.com\",\n\t\"password\": \"12345\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Authorized Content",
+			"request": {
+				"url": "http://localhost:3030",
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ODg2NzAwZDkxOWZkMjQ2MGYzZTZmZWQiLCJpYXQiOjE0ODUyMDU1MTgwMDl9.vbQG8skLfAMYDHjwZUEndXO8k0rd-Nxew9Fh5vJAxm8",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const cors = require('cors'); // https://www.npmjs.com/package/cors
 
 // DB Setup
-mongoose.connect('mongodb://localhost:auth/auth');
+mongoose.connect('mongodb://localhost:auth/ReactHealth');
 
 // app setup
 app.use(morgan('combined')); // logging requests
@@ -18,7 +18,7 @@ app.use(bodyParser.json({ type: '*/*' }));
 router(app);
 
 // server setup
-const port = process.env.PORT || 3090;
+const port = process.env.PORT || 3030;
 const server = http.createServer(app);
 server.listen(port);
 console.log('Server listening on ' + port);
