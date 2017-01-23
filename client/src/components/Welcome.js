@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default () => <div>Welcome to Redux Auth .</div>;
+export default () => <div>Welcome to React Health 1.0.</div>;
