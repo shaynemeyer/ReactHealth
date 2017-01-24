@@ -52,7 +52,7 @@ class Header extends Component {
 
   renderAppLink() {
       return (
-        <Link to="/" className="navbar-brand">My Health</Link>
+        <h4><Link to="/" className="navbar-brand">My Health</Link></h4>
       )
   }
 

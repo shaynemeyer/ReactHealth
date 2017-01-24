@@ -20,7 +20,7 @@ export default ({name, imageName, isChild}) => {
   }
 
   return (
-    <li className="linked-account-item">
+    <li className="nav-item linked-account-item">
       <img src={renderImage(imageName)} alt={name} className={`img-circle ${isAdult()}`}/>
     </li>
   );

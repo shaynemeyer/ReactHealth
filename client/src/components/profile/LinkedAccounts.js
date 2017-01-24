@@ -6,14 +6,17 @@ class LinkedAccounts extends Component {
   renderLinkedAccounts(user) {
 
     return (
-      <div>
-        <div className="">
-          <div className="">
-            <ul>
-              <LinkedAccountItems name="Julie Hudson" imageName="julie_hudson.jpg" isChild="false" />
-              <LinkedAccountItems name="Max Hudson" imageName="" isChild="true" />
-              <LinkedAccountItems name="Vivian Hudson" imageName="" isChild="true"/>
-            </ul>
+      <div className="linked-accounts">
+        <div className="card">
+          <div className="card-block">
+            <h6 className="card-title">Linked Accounts</h6>
+            <div className="navbar">
+              <ul className="nav navbar-nav">
+                <LinkedAccountItems name="Julie Hudson" imageName="julie_hudson.jpg" isChild="false" />
+                <LinkedAccountItems name="Max Hudson" imageName="" isChild="true" />
+                <LinkedAccountItems name="Vivian Hudson" imageName="" isChild="true"/>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
