@@ -7,7 +7,7 @@ import {
   FETCH_MESSAGE
 } from './types';
 
-const ROOT_URL = 'http://localhost:3090';
+const ROOT_URL = 'http://localhost:3030';
 
 export function signinUser({ email, password}) {
   return function (dispatch) {
@@ -20,7 +20,7 @@ export function signinUser({ email, password}) {
         // - Save the JWT token
         localStorage.setItem('token', response.data.token);
         // - redirect to the route '/feature'
-        browserHistory.push('/feature');
+        browserHistory.push('/home');
       })
       .catch(() => {
         // If request is bad...

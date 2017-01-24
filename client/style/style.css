@@ -4,7 +4,7 @@
 
 .header-container {
     width: 100%;
-    background-color: #3097d1;
+    background-color: #82a7c9;
 
 }
 
@@ -18,7 +18,7 @@
 }
 
 .navbar-inverse {
-    background-color: #3097d1;
+    background-color: #82a7c9;
     border-color: #1c73a5;
 }
 
@@ -35,3 +35,64 @@
     color: #ffffff;
     background-color: transparent;
 }
+
+.main-content-wrapper {
+    margin: 20px 5px;
+}
+
+.main-content {
+
+}
+
+/* NewsFeed */
+.news-feed {
+    margin-left: 5px;
+}
+
+.care-plan {
+    margin-right: 5px;
+}
+
+.my-clinic {
+    width: 280px;
+    margin-left: -30px;
+}
+
+.my-clinic .card-title h5 {
+    color: black;
+}
+
+.profile-image {
+    width: 200px;
+}
+
+.linked-account-item .child-img {
+    width: 50px;
+}
+
+.linked-account-item .adult-img {
+    width: 75px;
+}
+
+/* MyClinic */
+.my-clinic .card {
+    opacity: 0.65;
+}
+
+.my-prescriptions {
+    margin-top: 20px;
+}
+
+.my-prescriptions table {
+    width: 100%;
+}
+
+.my-prescriptions td:first-child {
+    width: 40%;
+}
+
+.my-prescriptions td:last-child {
+    width: 20%;
+    text-align: center;
+}
+
