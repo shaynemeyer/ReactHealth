@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MyProvider from './MyProvider';
 
-export default class MyClinic extends Component {
+class MyClinic extends Component {
 
   renderMyClinic(user) {
 
@@ -41,3 +41,5 @@ export default class MyClinic extends Component {
     );
   }
 }
+
+export default MyClinic;

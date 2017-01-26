@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Upcoming extends Component {
+class Upcoming extends Component {
   render() {
     return (
       <div className="upcoming">
@@ -20,7 +20,6 @@ export default class Upcoming extends Component {
               <tr>
                 <td>
                   Physical with Dr Baily<br />
-
                 </td>
                 <td>
                   No eating after midnight, water ok.
@@ -37,3 +36,5 @@ export default class Upcoming extends Component {
     );
   }
 }
+
+export default Upcoming;

@@ -63,7 +63,16 @@
 }
 
 .profile-image {
-    width: 200px;
+    width: 130px;
+}
+
+.profile-image-subtitle {
+    color: white;
+    text-align: center;
+}
+
+.linked-account-item .name {
+    text-align: center;
 }
 
 .linked-account-item .child-img {

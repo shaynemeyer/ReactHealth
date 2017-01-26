@@ -22,7 +22,7 @@ export default class CarePlan extends Component {
             <h5>Annual Physical</h5>
             <small>1 day ago</small>
             <p>It's time for your annual physical.</p>
-            <a href="http://healthynews.com">Schedule mow</a>
+            <a href="http://healthynews.com">Schedule now</a>
         </li>
         </ul>
       </div>

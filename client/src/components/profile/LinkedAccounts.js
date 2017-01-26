@@ -12,9 +12,9 @@ class LinkedAccounts extends Component {
             <h6 className="card-title">Linked Accounts</h6>
             <div className="navbar">
               <ul className="nav navbar-nav">
-                <LinkedAccountItems name="Julie Hudson" imageName="julie_hudson.jpg" isChild="false" />
-                <LinkedAccountItems name="Max Hudson" imageName="" isChild="true" />
-                <LinkedAccountItems name="Vivian Hudson" imageName="" isChild="true"/>
+                <LinkedAccountItems name="Julie" imageName="julie_hudson.jpg" isChild="false" />
+                <LinkedAccountItems name="Max" imageName="" isChild="true" />
+                <LinkedAccountItems name="Vivian" imageName="" isChild="true"/>
               </ul>
             </div>
           </div>

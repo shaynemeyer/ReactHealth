@@ -8,6 +8,7 @@ export default ({imageName, profileName}) => {
     return (
       <div className="profile-image">
         <img src={renderImage(imageName)} alt={profileName} className="img-circle"/>
+        <div className="profile-image-subtitle">Welcome Dustin</div>
       </div>
   );
 }

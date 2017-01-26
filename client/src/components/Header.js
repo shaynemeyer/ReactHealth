@@ -30,9 +30,8 @@ class Header extends Component {
       return (
         <div className="row">
           <div className="col-md-2">
-            {this.renderAppLink()}
             <ProfileImage imageName="dustin_hudson.jpg" profileName="Dustin Hudson" />
-            Welcome Dustin
+
             <ul className="nav navbar-nav">
               <li className="nav-item">
                 <Link to="/signout" className="nav-link">Sign Out</Link>
