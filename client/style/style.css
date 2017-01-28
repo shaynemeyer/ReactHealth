@@ -116,3 +116,13 @@
     text-align: center;
 }
 
+.signin-wrapper,
+.signup-wrapper {
+    width: 300px;
+    margin: 30px auto;
+
+}
+
+.test-results {
+    margin-bottom: 20px;
+}

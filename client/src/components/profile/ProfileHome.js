@@ -5,6 +5,8 @@ import NewsFeed from '../news/NewsFeed';
 import CarePlan from '../profile/CarePlan';
 import Upcoming from '../profile/Upcoming';
 import MyPrescriptions from '../prescriptions/MyPrescriptions';
+import VisitSummaries from './VisitSummaries';
+import TestResults from './TestResults';
 
 class ProfileHome extends Component {
   componentWillMount(){
@@ -21,9 +23,11 @@ class ProfileHome extends Component {
           <div className="main-content">
             <Upcoming />
             <MyPrescriptions/>
+            <VisitSummaries/>
           </div>
         </div>
         <div className="col-md-3">
+          <TestResults/>
           <CarePlan />
         </div>
       </div>
