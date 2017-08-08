@@ -5,7 +5,7 @@ import JumboTron from './content/JumboTron';
 export default () => {
   return (
     <div>
-      <JumboTron imageName="eat_healthy.jpg" />
+      <JumboTron />
 
       <div className="row">
         <ContentItemOne title="Schedule a Consult today" imageName="bacteria.jpg" imageText="Fend off disease" />
